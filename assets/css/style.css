@@ -1,0 +1,142 @@
+body p, body h1, body h2, body h3, body h4, body h5, body h6 {
+  margin: 0;
+}
+body .btn {
+  border: none;
+  background-color: transparent;
+}
+body input[type=text] {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+body a {
+  text-transform: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.btn.orange {
+  width: 100%;
+  color: #ff3d00;
+  border: 1px solid #ff3d00;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.4s;
+}
+.btn.orange:hover {
+  width: 100%;
+  color: #ff3d00;
+  border: 1px solid #ff3d00;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.4s;
+  cursor: pointer;
+  color: #fff;
+  background-color: #ff3d00;
+}
+.btn.blue {
+  width: 100%;
+  color: #0085ff;
+  border: 1px solid #0085ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.4s;
+}
+.btn.blue:hover {
+  width: 100%;
+  color: #0085ff;
+  border: 1px solid #0085ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.4s;
+  cursor: pointer;
+  color: #fff;
+  background-color: #0085ff;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3, p {
+  font-size: 14px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+body {
+  padding: 0 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 0;
+}
+header .burger-menu .line {
+  width: 18px;
+  height: 2px;
+  background-color: rgb(42, 41, 41);
+  margin-bottom: 3px;
+}
+header .burger-menu .line:last-child {
+  margin-bottom: 0;
+}
+header h1 {
+  transition: 0.4s;
+}
+header h1.active {
+  color: #ef5da8;
+}
+header h1.active:hover {
+  color: #000;
+}
+header h1:hover {
+  color: #ef5da8;
+  cursor: pointer;
+}
+header .icons svg {
+  transition: 0.4s;
+}
+header .icons svg:first-child {
+  margin-right: 20px;
+}
+header .icons svg:hover {
+  fill: #ff3d00;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
